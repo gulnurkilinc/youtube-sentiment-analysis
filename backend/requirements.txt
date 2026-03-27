@@ -1,0 +1,19 @@
+# ── YouTube ──────────────────────────────────────────────────────────────────
+google-api-python-client==2.108.0
+google-auth-httplib2==0.2.0
+
+# ── LLM Providers (hepsini kur, .env ile hangisini kullanacağını seç) ────────
+openai>=1.30.0                # GPT-4o / GPT-4o-mini
+anthropic>=0.40.0             # Claude
+google-generativeai>=0.8.0   # Gemini
+
+# ── Config & Validation ──────────────────────────────────────────────────────
+python-dotenv==1.0.0
+pydantic>=2.7.0
+pydantic-settings>=2.3.0
+
+# ── Utilities ────────────────────────────────────────────────────────────────
+tenacity==8.2.3
+rich>=13.7.0
+loguru==0.7.2
+tqdm==4.66.1

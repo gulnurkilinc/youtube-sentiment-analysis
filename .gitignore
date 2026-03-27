@@ -1,0 +1,20 @@
+# API Keys - ASLA yükleme
+backend/.env
+
+# Veriler
+backend/raw_data/
+backend/processed_data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+frontend/node_modules/
+frontend/.next/
+
+# OS
+.DS_Store
+Thumbs.db
