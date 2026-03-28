@@ -1,28 +1,68 @@
-# 🎯 YouTube Sentiment Analysis System
+<div align="center">
+```
+🎀 ˚ · . 🦋 · ˚ 🎀 ˚ · . 🦋 · ˚ 🎀 ˚ · . 🦋 · ˚ 🎀
+```
 
-A 3-agent system that analyzes emotions in YouTube video comments using AI.
+# 🌸 YouTube Sentiment Analysis System 🌸
+```
+🦋 · ˚ 🎀 ˚ · . 🦋 · ˚ 🎀 ˚ · . 🦋 · ˚ 🎀 ˚ · . 🦋
+```
 
-## 🤖 How It Works
+![Python](https://img.shields.io/badge/Python-3.10+-FF69B4?style=for-the-badge&logo=python&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-16-DA70D6?style=for-the-badge&logo=next.js&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o--mini-FFB6C1?style=for-the-badge&logo=openai&logoColor=white)
+![YouTube](https://img.shields.io/badge/YouTube-Data_API_v3-FF69B4?style=for-the-badge&logo=youtube&logoColor=white)
 
-- **Agent 1 (Fetcher):** Fetches videos and comments from YouTube
-- **Agent 2 (Brain):** Analyzes comment sentiments using GPT
-- **Agent 3 (Visualizer):** Displays results on a dashboard
+*✨ A 3-agent AI system that analyzes emotions in YouTube comments ✨*
 
-## ⚙️ Setup
+</div>
 
-### Requirements
-- Python 3.10+
-- Node.js 18+
-- YouTube Data API v3 key
-- OpenAI API key
+---
 
-### 1. Clone the Repo
+<div align="center">
+```
+🌸 ─────────────────────────────────── 🌸
+         🦋  HOW IT WORKS  🦋
+🌸 ─────────────────────────────────── 🌸
+```
+
+</div>
+```
+🎀 Agent 1 — THE FETCHER
+   └── 📡 Fetches trending videos & comments from YouTube
+
+🦋 Agent 2 — THE BRAIN  
+   └── 🧠 Analyzes sentiments using GPT-4o-mini
+
+🎀 Agent 3 — THE VISUALIZER
+   └── 📊 Displays beautiful charts on a dashboard
+```
+
+---
+
+<div align="center">
+```
+🌸 ─────────────────────────────────── 🌸
+         🎀  SETUP  🎀
+🌸 ─────────────────────────────────── 🌸
+```
+
+</div>
+
+### 🦋 Requirements
+
+- 🐍 Python 3.10+
+- 💚 Node.js 18+
+- 🔑 YouTube Data API v3 key
+- 🔑 OpenAI API key
+
+### 🌸 1. Clone the Repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git clone https://github.com/gulnurkilinc/youtube-sentiment-analysis.git
 cd youtube-sentiment-analysis
 ```
 
-### 2. Setup Backend
+### 🌸 2. Setup Backend
 ```bash
 cd backend
 pip install -r requirements.txt
@@ -30,106 +70,166 @@ cp .env.example .env
 # Open .env and add your API keys
 ```
 
-### 3. Setup Frontend
+### 🌸 3. Setup Frontend
 ```bash
 cd frontend
 npm install
 ```
 
-## 🚀 Usage
+---
 
-### Fetch Data
+<div align="center">
+```
+🌸 ─────────────────────────────────── 🌸
+         🦋  USAGE  🦋
+🌸 ─────────────────────────────────── 🌸
+```
+
+</div>
+
+### 🎀 Step 1 — Fetch Data
 ```bash
 cd backend
 python agents/fetcher.py
 ```
 
-### Run Analysis
+### 🎀 Step 2 — Run Analysis
 ```bash
 python agents/brain.py
 ```
 
-### Open Dashboard
+### 🎀 Step 3 — Open Dashboard
 ```bash
 cd frontend
 npm run dev
 ```
-Open `http://localhost:3000` in your browser.
-
-## 🔑 Getting API Keys
-
-- **YouTube:** [console.cloud.google.com](https://console.cloud.google.com)
-- **OpenAI:** [platform.openai.com](https://platform.openai.com)
-
-## 📊 Analyzed Emotions
-
-Anger, Joy, Trust, Fear, Surprise, Sadness, Disgust, Anticipation
+> 🌸 Open `http://localhost:3000` in your browser
 
 ---
 
-# 🎯 YouTube Duygu Analizi Sistemi
+<div align="center">
+```
+🌸 ─────────────────────────────────── 🌸
+       🦋  ANALYZED EMOTIONS  🦋
+🌸 ─────────────────────────────────── 🌸
+```
 
-YouTube'daki popüler videoların yorumlarını yapay zeka ile analiz eden 3 ajanlı sistem.
+| 💗 Emotion | 🌸 Duygu |
+|-----------|---------|
+| 😠 Anger | Öfke |
+| 😊 Joy | Sevinç |
+| 🤝 Trust | Güven |
+| 😨 Fear | Korku |
+| 😲 Surprise | Sürpriz |
+| 😢 Sadness | Üzüntü |
+| 🤢 Disgust | İğrenme |
+| 🌟 Anticipation | Beklenti |
 
-## 🤖 Nasıl Çalışır?
+</div>
 
-- **Ajan 1 (Fetcher):** YouTube'dan video ve yorumları çeker
-- **Ajan 2 (Brain):** GPT ile yorumların duygu analizini yapar
-- **Ajan 3 (Visualizer):** Sonuçları dashboard'da gösterir
+---
 
-## ⚙️ Kurulum
+<div align="center">
+```
+🌸 ─────────────────────────────────── 🌸
+         🎀  API KEYS  🎀
+🌸 ─────────────────────────────────── 🌸
+```
 
-### Gereksinimler
-- Python 3.10+
-- Node.js 18+
-- YouTube Data API v3 key
-- OpenAI API key
+🦋 **YouTube API →** [console.cloud.google.com](https://console.cloud.google.com)
 
-### 1. Repoyu İndir
+🦋 **OpenAI API →** [platform.openai.com](https://platform.openai.com)
+
+</div>
+
+---
+
+<div align="center">
+```
+🌸 ─────────────────────────────────── 🌸
+        🎀  NASIL ÇALIŞIR?  🎀
+🌸 ─────────────────────────────────── 🌸
+```
+
+</div>
+```
+🎀 Ajan 1 — FETCHER
+   └── 📡 YouTube'dan trend videolar ve yorumlar çeker
+
+🦋 Ajan 2 — BRAIN
+   └── 🧠 GPT-4o-mini ile duygu analizi yapar
+
+🎀 Ajan 3 — VISUALIZER
+   └── 📊 Sonuçları dashboard'da gösterir
+```
+
+---
+
+<div align="center">
+```
+🌸 ─────────────────────────────────── 🌸
+         🦋  KURULUM  🦋
+🌸 ─────────────────────────────────── 🌸
+```
+
+</div>
+
+### 🌸 1. Repoyu İndir
 ```bash
-git clone https://github.com/KULLANICI_ADIN/REPO_ADIN.git
+git clone https://github.com/gulnurkilinc/youtube-sentiment-analysis.git
 cd youtube-sentiment-analysis
 ```
 
-### 2. Backend Kur
+### 🌸 2. Backend Kur
 ```bash
 cd backend
 pip install -r requirements.txt
 cp .env.example .env
-# .env dosyasını aç, kendi API key'lerini yaz
+# .env dosyasını aç ve API key'lerini yaz
 ```
 
-### 3. Frontend Kur
+### 🌸 3. Frontend Kur
 ```bash
 cd frontend
 npm install
 ```
 
-## 🚀 Kullanım
+---
 
-### Veri Çek
+<div align="center">
+```
+🌸 ─────────────────────────────────── 🌸
+         🎀  KULLANIM  🎀
+🌸 ─────────────────────────────────── 🌸
+```
+
+</div>
+
+### 🎀 Adım 1 — Veri Çek
 ```bash
 cd backend
 python agents/fetcher.py
 ```
 
-### Analiz Yap
+### 🎀 Adım 2 — Analiz Yap
 ```bash
 python agents/brain.py
 ```
 
-### Dashboard'u Aç
+### 🎀 Adım 3 — Dashboard'u Aç
 ```bash
 cd frontend
 npm run dev
 ```
-Tarayıcıda `http://localhost:3000` aç.
+> 🌸 Tarayıcıda `http://localhost:3000` aç
 
-## 🔑 API Key Alma
+---
 
-- **YouTube:** [console.cloud.google.com](https://console.cloud.google.com)
-- **OpenAI:** [platform.openai.com](https://platform.openai.com)
+<div align="center">
 
-## 📊 Analiz Edilen Duygular
+🦋 *Made with 🌸 and AI* 🦋
+```
+🎀 ˚ · . 🦋 · ˚ 🎀 ˚ · . 🦋 · ˚ 🎀 ˚ · . 🦋 · ˚ 🎀
+```
 
-Öfke, Sevinç, Güven, Korku, Sürpriz, Üzüntü, İğrenme, Beklenti
+</div>
