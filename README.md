@@ -3,9 +3,9 @@
 # 🎀 YouTube Sentiment Analysis System 🎀
 # 🎀 YouTube Duygu Analizi 🎀
 
-*Türkçe dil seçeneği alt kısımda mevcuttur.* 🎀
+🎀 *Türkçe dil seçeneği alt kısımda mevcuttur.* 🎀
 
-🎀 ・────────────────────────────────────・ 🎀
+
 
 ![Python](https://img.shields.io/badge/Python-3.10+-FF69B4?style=for-the-badge&logo=python&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-16-DA70D6?style=for-the-badge&logo=next.js&logoColor=white)
@@ -13,8 +13,8 @@
 ![YouTube](https://img.shields.io/badge/YouTube-Data_API_v3-C8A2C8?style=for-the-badge&logo=youtube&logoColor=white)
 
 *✨ A 3-agent AI system that analyzes emotions in YouTube comments ✨*
+*✨ YouTube yorumlarındaki duyguları yapay zeka ile analiz eden 3 ajanlı sistem ✨*
 
-🎀 ・────────────────────────────────────・ 🎀
 
 </div>
 
@@ -127,6 +127,7 @@ npm run dev
 
 <div align="center">
 
+## 🎀 TÜRKÇE 🎀
 ## 🎀 Nasıl Çalışır? 🎀
 
 </div>
