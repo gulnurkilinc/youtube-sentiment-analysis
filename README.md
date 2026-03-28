@@ -196,8 +196,6 @@ npm run dev
 
 <div align="center">
 
-🎀 *Made with 🌸 and AI* 🎀
 
-🎀 ・────────────────────────────────────・ 🎀
 
 </div>
